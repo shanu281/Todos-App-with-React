@@ -1,0 +1,68 @@
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+}
+h2 {
+  font-size: 2rem;
+}
+.container {
+  border: 1px solid black;
+  box-shadow: 1px 4px 6px 3px cyan;
+  width: 600px;
+  margin: auto;
+}
+input {
+  width: 60%;
+  margin: 2rem 7rem;
+  height: 3rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+.btn-container {
+  margin: 1rem 1.5rem;
+}
+button {
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: brown;
+  color: white;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+.todo-list {
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  text-align: center;
+}
+input[type="checkbox"] {
+   
+    margin: 0.5rem 1rem 0.5rem 0.5rem ;
+    height: 1.2rem;
+    border-radius: 5px;
+   
+  width: 2rem;
+  border: 1px solid black;
+}
+p{
+    float: right;
+    text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+.cross-btn {
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    float: right;
+  }
